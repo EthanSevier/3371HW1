@@ -1,0 +1,116 @@
+/*
+Program name: patient-form.html
+Author: Ethan Sevier
+Date created: 2/23/2026
+Date last edited: 2/27/2026
+Version: 1.8
+Description: A mock registration form for Pearland Pediatrics --> */
+body {
+  background-color: rgb(65, 84, 210);
+}
+h1 {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: small;
+    color: rgb(65, 84, 210);
+
+}
+
+
+h3 {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-stretch: extra-expanded;
+}
+label{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+table{
+        font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: left;
+}
+
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: aliceblue; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: blueviolet; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: blueviolet; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+#Symptom{
+    color: blueviolet;
+}
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #ffffff;
+  color: rgb(65, 84, 210);
+  font-size: 30px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.footer {
+  padding: 10px;
+  text-align: left;
+  background: #ffffff;
+  color: rgb(65, 84, 210);
+  font-size: 15px;
+  font-family: cursive;
+}
+.contactus {
+	display: inline-block;
+	text-align: right;
+}
+h4{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: aliceblue;
+    font-family: wingdings;
+}
+.final{
+  text-align: center;
+}
+
+
